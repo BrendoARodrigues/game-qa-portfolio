@@ -1,5 +1,11 @@
 # 🎮 Brendo de Araujo - Game QA Portfolio
 
+Welcome to my Game QA Portfolio.
+
+This repository showcases my practical work in game testing, including bug reports, test plans, exploratory testing sessions, bug bash reports, and quality reviews.
+
+My goal is to apply professional QA practices from software testing to the game development industry while continuously improving my testing skills and understanding of game systems.
+
 ## About Me
 
 Quality Assurance Analyst with experience in:
