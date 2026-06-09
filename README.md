@@ -12,45 +12,66 @@ The objective of this portfolio is to demonstrate QA methodologies applied to vi
 
 I am a Quality Assurance Analyst with professional experience in software testing, exploratory testing, regression testing, bug reporting, and test documentation.
 
-My current goal is to transition into the game industry by applying QA best practices to gameplay systems, user experience, progression mechanics, multiplayer features, and overall game quality.
+My current goal is to transition into the game industry by applying QA best practices to gameplay systems, user experience, progression mechanics, and overall game quality.
 
 This portfolio documents my learning journey and practical experience in Game QA through real testing projects and structured quality analysis.
 
 ---
 
+## Contact
+
+- **Email:** brendoarodrigues2012@gmail.com
+- **LinkedIn:** [linkedin.com/in/brendo-araujo](https://www.linkedin.com/in/brendo-araujo/)
+
+---
+
 ## Skills
 
-### Testing
+### Game QA
 
 * Exploratory Testing
-* Regression Testing
 * Functional Testing
+* Regression Testing
 * Smoke Testing
-* User Acceptance Testing (UAT)
+* Gameplay Testing
+* UI/UX Testing
+* Progression Testing
+* Bug Bash Sessions
 * Test Case Design
 * Test Planning
 * Defect Tracking
 * Bug Reporting
-
-### Game QA
-
-* Gameplay Testing
-* UI/UX Testing
-* Progression Testing
-* Multiplayer Testing
-* Bug Bash Sessions
 * Quality Reviews
+
+### Software QA Background
+
+* User Acceptance Testing (UAT)
+* Automated Testing (Cypress — web applications)
 
 ### Tools
 
 * Jira
 * Azure DevOps
-* Cypress
 * GitHub
 * OBS Studio
 * ShareX
-* Roblox Studio
 * Notion
+
+---
+
+## Game Under Test
+
+### Metal Garden
+
+| Field          | Details    |
+| -------------- | ---------- |
+| Genre          | _to fill_  |
+| Platform       | _to fill_  |
+| Developer      | _to fill_  |
+| Version Tested | _to fill_  |
+| Testing Period | _to fill_  |
+
+> _Add a brief description of Metal Garden here._
 
 ---
 
@@ -58,40 +79,45 @@ This portfolio documents my learning journey and practical experience in Game QA
 
 ### Bug Reports
 
-| Project                          | Status  |
-| -------------------------------- | ------- |
-| Roblox Horror Daycare            | Planned |
-| Multiplayer Game Testing Project | Planned |
-| Exploratory Testing Study        | Planned |
+| Project                              | Game         | Status      |
+| ------------------------------------ | ------------ | ----------- |
+| Exploratory Bug Report — Metal Garden | Metal Garden | In Progress |
 
 ---
 
 ### Test Plans
 
-| Project                       | Status  |
-| ----------------------------- | ------- |
-| Inventory System Testing      | Planned |
-| Character Progression Testing | Planned |
-| Multiplayer Session Testing   | Planned |
+| Project                        | Game         | Status  |
+| ------------------------------ | ------------ | ------- |
+| Metal Garden — Full Test Plan  | Metal Garden | Planned |
+
+---
+
+### Exploratory Sessions
+
+| Session                    | Game         | Status  |
+| -------------------------- | ------------ | ------- |
+| Exploratory Session 001    | Metal Garden | Planned |
+| Exploratory Session 002    | Metal Garden | Planned |
+| Exploratory Session 003    | Metal Garden | Planned |
 
 ---
 
 ### Bug Bashes
 
-| Session      | Status  |
-| ------------ | ------- |
-| Bug Bash 001 | Planned |
-| Bug Bash 002 | Planned |
-| Bug Bash 003 | Planned |
+| Session                          | Game         | Status  |
+| -------------------------------- | ------------ | ------- |
+| Bug Bash 001 — Metal Garden      | Metal Garden | Planned |
+| Bug Bash 002 — Metal Garden      | Metal Garden | Planned |
 
 ---
 
 ### Quality Reviews
 
-| Project                 | Status  |
-| ----------------------- | ------- |
-| Gameplay Quality Review | Planned |
-| User Experience Review  | Planned |
+| Project                            | Game         | Status  |
+| ---------------------------------- | ------------ | ------- |
+| Gameplay Quality Review            | Metal Garden | Planned |
+| User Experience Review             | Metal Garden | Planned |
 
 ---
 
@@ -112,9 +138,9 @@ This portfolio documents my learning journey and practical experience in Game QA
 
 ```text
 game-qa-portfolio
-
 ├── bug-reports
 ├── test-plans
+├── exploratory-sessions
 ├── bug-bashes
 ├── quality-reviews
 ├── assets
