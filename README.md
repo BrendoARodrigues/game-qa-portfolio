@@ -79,9 +79,28 @@ This portfolio documents my learning journey and practical experience in Game QA
 
 ### Bug Reports
 
-| Project                              | Game         | Status      |
-| ------------------------------------ | ------------ | ----------- |
-| Exploratory Bug Report — Metal Garden | Metal Garden | In Progress |
+| ID                                                              | Title                                                              | Game         | Severity | Status |
+| --------------------------------------------------------------- | ------------------------------------------------------------------ | ------------ | -------- | ------ |
+| [BUG-001](bug-reports/metal-garden/BUG-001.md)                 | Aquatic enemy stops attacking when player positions underneath it  | Metal Garden | Medium   | Open   |
+| [BUG-002](bug-reports/metal-garden/BUG-002.md)                 | Player can stand on or clip into aquatic enemy model               | Metal Garden | Low      | Open   |
+
+---
+
+### Observations
+
+| ID                                                              | Title                                                                        | Game         | Status              |
+| --------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------ | ------------------- |
+| [OBS-001](observations/metal-garden/OBS-001.md)                | Enemies and resources respawn indefinitely after returning to a cleared area | Metal Garden | Pending Validation  |
+
+---
+
+### Exploratory Sessions
+
+| Session                                                                         | Game         | Status    |
+| ------------------------------------------------------------------------------- | ------------ | --------- |
+| [Session 001 — Aquatic Zone](exploratory-sessions/metal-garden/session-001.md) | Metal Garden | Completed |
+| Session 002                                                                     | Metal Garden | Planned   |
+| Session 003                                                                     | Metal Garden | Planned   |
 
 ---
 
@@ -90,16 +109,6 @@ This portfolio documents my learning journey and practical experience in Game QA
 | Project                        | Game         | Status  |
 | ------------------------------ | ------------ | ------- |
 | Metal Garden — Full Test Plan  | Metal Garden | Planned |
-
----
-
-### Exploratory Sessions
-
-| Session                    | Game         | Status  |
-| -------------------------- | ------------ | ------- |
-| Exploratory Session 001    | Metal Garden | Planned |
-| Exploratory Session 002    | Metal Garden | Planned |
-| Exploratory Session 003    | Metal Garden | Planned |
 
 ---
 
@@ -125,8 +134,8 @@ This portfolio documents my learning journey and practical experience in Game QA
 
 | Metric              | Value |
 | ------------------- | ----- |
-| Games Tested        | 0     |
-| Bug Reports Created | 0     |
+| Games Tested        | 1     |
+| Bug Reports Created | 2     |
 | Test Cases Designed | 0     |
 | Bug Bash Sessions   | 0     |
 
@@ -139,14 +148,19 @@ This portfolio documents my learning journey and practical experience in Game QA
 ```text
 game-qa-portfolio
 ├── bug-reports
+│   └── metal-garden
 ├── test-plans
 ├── exploratory-sessions
+│   └── metal-garden
 ├── bug-bashes
 ├── quality-reviews
+├── observations
+│   └── metal-garden
 ├── assets
-│   ├── screenshots
-│   ├── gifs
-│   └── videos
+│   └── metal-garden
+│       ├── screenshots
+│       ├── gifs
+│       └── videos
 └── README.md
 ```
 
