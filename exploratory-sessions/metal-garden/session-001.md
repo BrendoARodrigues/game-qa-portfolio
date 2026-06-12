@@ -7,7 +7,7 @@
 | Date          | 2026-06-11                       |
 | Tester        | Brendo de Araujo                 |
 | Duration      | [Insert duration]                |
-| Area Tested   | Aquatic Zone — Enemy Encounters  |
+| Area Tested   | Multiple Areas — Aquatic Zone, Enemy AI, Phase 3 End Section |
 | Session Type  | Unstructured Exploratory Testing |
 
 ---
@@ -20,7 +20,7 @@ Explore the aquatic zone and its enemy interactions to identify behavioral anoma
 
 ## Summary
 
-This session covered the aquatic zone of Metal Garden with focus on enemy behavior, player-enemy collision, and resource management. Two reproducible bugs and one design observation were identified. All findings are contained to the aquatic area and the broader traversal loop.
+This session covered multiple areas of Metal Garden including the aquatic zone, enemy AI interactions, and the end section of Phase 3. Four reproducible bugs and one design observation were identified, spanning enemy behavior, player-enemy collision, AI movement, and environmental collision.
 
 ---
 
@@ -30,6 +30,8 @@ This session covered the aquatic zone of Metal Garden with focus on enemy behavi
 | --------------------------------------------------------------- | ----------- | ------------------------------------------------------------------------------- | -------- |
 | [BUG-001](../../bug-reports/metal-garden/BUG-001.md)           | Bug         | Aquatic enemy stops attacking when player positions underneath it               | Medium   |
 | [BUG-002](../../bug-reports/metal-garden/BUG-002.md)           | Bug         | Player can stand on or clip into aquatic enemy model                            | Low      |
+| [BUG-003](../../bug-reports/metal-garden/BUG-003.md)           | Bug         | Enemy clips into wall during dodge animation                                    | Medium   |
+| [BUG-004](../../bug-reports/metal-garden/BUG-004.md)           | Bug         | Player clips inside giant gear structure at end of Phase 3                      | Medium   |
 | [OBS-001](../../observations/metal-garden/OBS-001.md)          | Observation | Enemies and resources respawn indefinitely after returning to a cleared area    | N/A      |
 
 ---
@@ -46,7 +48,9 @@ This session covered the aquatic zone of Metal Garden with focus on enemy behavi
 
 - [x] Aquatic enemy attack behavior
 - [x] Player-enemy collision and hitbox accuracy
+- [x] Enemy dodge behavior and landing validation
+- [x] Environmental collision — moving structures (Phase 3)
 - [x] Resource and enemy respawn behavior after checkpoint
 - [ ] Full aquatic area traversal
-- [ ] All enemy types in the zone
+- [ ] All enemy types and dodge variants
 - [ ] Edge cases involving multiple enemies simultaneously

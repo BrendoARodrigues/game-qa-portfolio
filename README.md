@@ -83,6 +83,8 @@ This portfolio documents my learning journey and practical experience in Game QA
 | --------------------------------------------------------------- | ------------------------------------------------------------------ | ------------ | -------- | ------ |
 | [BUG-001](bug-reports/metal-garden/BUG-001.md)                 | Aquatic enemy stops attacking when player positions underneath it  | Metal Garden | Medium   | Open   |
 | [BUG-002](bug-reports/metal-garden/BUG-002.md)                 | Player can stand on or clip into aquatic enemy model               | Metal Garden | Low      | Open   |
+| [BUG-003](bug-reports/metal-garden/BUG-003.md)                 | Enemy clips into wall during dodge animation                       | Metal Garden | Medium   | Open   |
+| [BUG-004](bug-reports/metal-garden/BUG-004.md)                 | Player clips inside giant gear structure at end of Phase 3         | Metal Garden | Medium   | Open   |
 
 ---
 
@@ -135,7 +137,7 @@ This portfolio documents my learning journey and practical experience in Game QA
 | Metric              | Value |
 | ------------------- | ----- |
 | Games Tested        | 1     |
-| Bug Reports Created | 2     |
+| Bug Reports Created | 4     |
 | Test Cases Designed | 0     |
 | Bug Bash Sessions   | 0     |
 
