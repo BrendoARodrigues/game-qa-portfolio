@@ -20,7 +20,7 @@ Explore the aquatic zone and its enemy interactions to identify behavioral anoma
 
 ## Summary
 
-This session covered multiple areas of Metal Garden including the aquatic zone, enemy AI interactions, and the end section of Phase 3. Four reproducible bugs and one design observation were identified, spanning enemy behavior, player-enemy collision, AI movement, and environmental collision.
+This session covered multiple areas of Metal Garden including the aquatic zone, enemy AI interactions, and the end section of Phase 3. Three confirmed bugs, one bug requiring retest, and one design observation were identified, spanning enemy behavior, player-enemy collision, AI movement, and environmental collision.
 
 ---
 

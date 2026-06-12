@@ -2,7 +2,7 @@
 
 Welcome to my Game QA Portfolio.
 
-This repository contains practical examples of game testing documentation, including bug reports, test plans, exploratory testing sessions, bug bash reports, and quality reviews.
+This repository contains practical examples of game testing documentation, including bug reports, test plans, test cases, exploratory testing sessions, and design observations.
 
 The objective of this portfolio is to demonstrate QA methodologies applied to video games while building experience within the Game QA field.
 
@@ -30,18 +30,11 @@ This portfolio documents my learning journey and practical experience in Game QA
 ### Game QA
 
 * Exploratory Testing
-* Functional Testing
-* Regression Testing
-* Smoke Testing
 * Gameplay Testing
-* UI/UX Testing
-* Progression Testing
-* Bug Bash Sessions
-* Test Case Design
 * Test Planning
-* Defect Tracking
+* Test Case Design
 * Bug Reporting
-* Quality Reviews
+* Defect Tracking
 
 ### Software QA Background
 
@@ -63,15 +56,13 @@ This portfolio documents my learning journey and practical experience in Game QA
 
 ### Metal Garden
 
-| Field          | Details    |
-| -------------- | ---------- |
-| Genre          | _to fill_  |
-| Platform       | _to fill_  |
-| Developer      | _to fill_  |
-| Version Tested | _to fill_  |
-| Testing Period | _to fill_  |
+| Field          | Details             |
+| -------------- | ------------------- |
+| Genre          | Action / Platformer |
+| Platform       | PC                  |
+| Testing Period | June 2026           |
 
-> _Add a brief description of Metal Garden here._
+> Metal Garden is an indie action game featuring multi-phase level design, aquatic zones, and enemy AI with dynamic behaviors including dodge reactions. Players navigate environmental hazards, manage limited resources — health items, ammunition, and grenades — and progress through a checkpoint-gated structure.
 
 ---
 
@@ -79,56 +70,44 @@ This portfolio documents my learning journey and practical experience in Game QA
 
 ### Bug Reports
 
-| ID                                                              | Title                                                              | Game         | Severity | Status |
-| --------------------------------------------------------------- | ------------------------------------------------------------------ | ------------ | -------- | ------ |
-| [BUG-001](bug-reports/metal-garden/BUG-001.md)                 | Aquatic enemy stops attacking when player positions underneath it  | Metal Garden | Medium   | Open   |
-| [BUG-002](bug-reports/metal-garden/BUG-002.md)                 | Player can stand on or clip into aquatic enemy model               | Metal Garden | Low      | Open   |
-| [BUG-003](bug-reports/metal-garden/BUG-003.md)                 | Enemy clips into wall during dodge animation                       | Metal Garden | Medium   | Open   |
-| [BUG-004](bug-reports/metal-garden/BUG-004.md)                 | Player clips inside giant gear structure at end of Phase 3         | Metal Garden | Medium   | Open   |
+| ID                                              | Title                                                              | Game         | Severity | Status       |
+| ----------------------------------------------- | ------------------------------------------------------------------ | ------------ | -------- | ------------ |
+| [BUG-001](bug-reports/metal-garden/BUG-001.md) | Aquatic enemy stops attacking when player positions underneath it  | Metal Garden | Medium   | Confirmed    |
+| [BUG-002](bug-reports/metal-garden/BUG-002.md) | Player can stand on or clip into aquatic enemy model               | Metal Garden | Low      | Confirmed    |
+| [BUG-003](bug-reports/metal-garden/BUG-003.md) | Enemy clips into wall during dodge animation                       | Metal Garden | Medium   | Needs Retest |
+| [BUG-004](bug-reports/metal-garden/BUG-004.md) | Player clips inside giant gear structure at end of Phase 3         | Metal Garden | Medium   | Confirmed    |
 
 ---
 
 ### Observations
 
-| ID                                                              | Title                                                                        | Game         | Status              |
-| --------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------ | ------------------- |
-| [OBS-001](observations/metal-garden/OBS-001.md)                | Enemies and resources respawn indefinitely after returning to a cleared area | Metal Garden | Pending Validation  |
+| ID                                                | Title                                                                        | Game         | Status             |
+| ------------------------------------------------- | ---------------------------------------------------------------------------- | ------------ | ------------------ |
+| [OBS-001](observations/metal-garden/OBS-001.md)  | Enemies and resources respawn indefinitely after returning to a cleared area | Metal Garden | Pending Validation |
 
 ---
 
 ### Exploratory Sessions
 
-| Session                                                                         | Game         | Status    |
-| ------------------------------------------------------------------------------- | ------------ | --------- |
-| [Session 001 — Aquatic Zone](exploratory-sessions/metal-garden/session-001.md) | Metal Garden | Completed |
-| Session 002                                                                     | Metal Garden | Planned   |
-| Session 003                                                                     | Metal Garden | Planned   |
+| Session                                                                                   | Game         | Status    |
+| ----------------------------------------------------------------------------------------- | ------------ | --------- |
+| [Session 001 — Aquatic Zone & Phase 3](exploratory-sessions/metal-garden/session-001.md) | Metal Garden | Completed |
 
 ---
 
 ### Test Plans
 
-| Project                        | Game         | Status  |
-| ------------------------------ | ------------ | ------- |
-| Metal Garden — Full Test Plan  | Metal Garden | Planned |
+| Project                                                                              | Game         | Status    |
+| ------------------------------------------------------------------------------------ | ------------ | --------- |
+| [Metal Garden — Full Test Plan](test-plans/metal-garden/test-plan-metal-garden.md)  | Metal Garden | Completed |
 
 ---
 
-### Bug Bashes
+### Test Cases
 
-| Session                          | Game         | Status  |
-| -------------------------------- | ------------ | ------- |
-| Bug Bash 001 — Metal Garden      | Metal Garden | Planned |
-| Bug Bash 002 — Metal Garden      | Metal Garden | Planned |
-
----
-
-### Quality Reviews
-
-| Project                            | Game         | Status  |
-| ---------------------------------- | ------------ | ------- |
-| Gameplay Quality Review            | Metal Garden | Planned |
-| User Experience Review             | Metal Garden | Planned |
+| Document                                                                                      | Game         | Cases | Status       |
+| --------------------------------------------------------------------------------------------- | ------------ | ----- | ------------ |
+| [Combat and Collision](test-cases/metal-garden/combat-and-collision-test-cases.md)            | Metal Garden | 15    | Not Executed |
 
 ---
 
@@ -138,8 +117,8 @@ This portfolio documents my learning journey and practical experience in Game QA
 | ------------------- | ----- |
 | Games Tested        | 1     |
 | Bug Reports Created | 4     |
-| Test Cases Designed | 0     |
-| Bug Bash Sessions   | 0     |
+| Test Plans Created  | 1     |
+| Test Cases Designed | 15    |
 
 *Statistics will be updated as new projects are completed.*
 
@@ -152,10 +131,11 @@ game-qa-portfolio
 ├── bug-reports
 │   └── metal-garden
 ├── test-plans
+│   └── metal-garden
+├── test-cases
+│   └── metal-garden
 ├── exploratory-sessions
 │   └── metal-garden
-├── bug-bashes
-├── quality-reviews
 ├── observations
 │   └── metal-garden
 ├── assets
