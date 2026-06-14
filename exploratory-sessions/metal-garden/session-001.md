@@ -6,15 +6,15 @@
 | Game          | Metal Garden                     |
 | Date          | 2026-06-11                       |
 | Tester        | Brendo de Araujo                 |
-| Duration      | [Insert duration]                |
+| Duration      | 180 minutes                                                  |
 | Area Tested   | Multiple Areas — Aquatic Zone, Enemy AI, Phase 3 End Section |
-| Session Type  | Unstructured Exploratory Testing |
+| Session Type  | Session-Based Exploratory Testing (SBET)                     |
 
 ---
 
 ## Charter
 
-Explore the aquatic zone and its enemy interactions to identify behavioral anomalies, collision inconsistencies, and design concerns that affect gameplay quality and player experience.
+Explore enemy behavior, collision systems, checkpoint transitions, and environmental interactions across multiple areas of Metal Garden.
 
 ---
 
