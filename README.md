@@ -107,7 +107,7 @@ This portfolio documents my learning journey and practical experience in Game QA
 
 | Document                                                                                      | Game         | Cases | Status       |
 | --------------------------------------------------------------------------------------------- | ------------ | ----- | ------------ |
-| [Combat and Collision](test-cases/metal-garden/combat-and-collision-test-cases.md)            | Metal Garden | 15    | Not Executed |
+| [Combat and Collision](test-cases/metal-garden/combat-and-collision-test-cases.md)            | Metal Garden | 15    | Executed |
 
 ---
 
