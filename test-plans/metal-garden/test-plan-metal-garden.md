@@ -47,7 +47,7 @@ Define the testing scope, approach, and coverage areas for Metal Garden as part 
 | Single tester — no cross-validation | Findings may reflect individual play patterns | Retest confirmed defects across multiple sessions |
 | BUG-003 has low reproduction rate | Defect may be intermittent or environment-specific | Dedicated retest session scheduled |
 | Design intent unknown for OBS-001 | Respawn behavior cannot be confirmed as bug or feature | Logged as pending design validation |
-| Game version not formally tracked | Results may not reflect current patch state | Confirm version before each test execution |
+| Game version confirmed as 2.7.2 | Results are tied to this specific build | Retest required if version changes |
 
 ---
 
@@ -68,7 +68,7 @@ Define the testing scope, approach, and coverage areas for Metal Garden as part 
 | Platform | PC |
 | Operating System | Windows 10 |
 | Input Method | Keyboard / Mouse |
-| Game Version | Confirm before execution |
+| Game Version | 2.7.2                    |
 
 ---
 

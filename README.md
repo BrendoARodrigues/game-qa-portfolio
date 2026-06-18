@@ -60,6 +60,7 @@ This portfolio documents my learning journey and practical experience in Game QA
 | -------------- | ------------------- |
 | Genre          | Action / Platformer |
 | Platform       | PC                  |
+| Version Tested | 2.7.2               |
 | Testing Period | June 2026           |
 
 > Metal Garden is an indie action game featuring multi-phase level design, aquatic zones, and enemy AI with dynamic behaviors including dodge reactions. Players navigate environmental hazards, manage limited resources — health items, ammunition, and grenades — and progress through a checkpoint-gated structure.

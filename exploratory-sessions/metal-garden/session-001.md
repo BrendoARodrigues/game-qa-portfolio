@@ -3,8 +3,9 @@
 | Field         | Details                          |
 | ------------- | -------------------------------- |
 | Session ID    | SESSION-001                      |
-| Game          | Metal Garden                     |
-| Date          | 2026-06-11                       |
+| Game          | Metal Garden                                                 |
+| Game Version  | 2.7.2                                                        |
+| Date          | 2026-06-11                                                   |
 | Tester        | Brendo de Araujo                 |
 | Duration      | 180 minutes                                                  |
 | Area Tested   | Multiple Areas — Aquatic Zone, Enemy AI, Phase 3 End Section |
