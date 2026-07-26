@@ -20,7 +20,6 @@ This portfolio documents my learning journey and practical experience in Game QA
 
 ## Contact
 
-- **Email:** brendoarodrigues2012@gmail.com
 - **LinkedIn:** [linkedin.com/in/brendo-araujo](https://www.linkedin.com/in/brendo-araujo/)
 
 ---
@@ -39,7 +38,7 @@ This portfolio documents my learning journey and practical experience in Game QA
 ### Software QA Background
 
 * User Acceptance Testing (UAT)
-* Automated Testing (Cypress — web applications)
+* Automated Testing (web applications)
 
 ### Tools
 
@@ -64,19 +63,6 @@ This portfolio documents my learning journey and practical experience in Game QA
 | Testing Period | June 2026           |
 
 > Metal Garden is an indie action game featuring multi-phase level design, aquatic zones, and enemy AI with dynamic behaviors including dodge reactions. Players navigate environmental hazards, manage limited resources — health items, ammunition, and grenades — and progress through a checkpoint-gated structure.
-
----
-
-### No Sun To Worship
-
-| Field          | Details                  |
-| -------------- | ------------------------ |
-| Genre          | [Fill in genre]          |
-| Platform       | [Fill in platform]       |
-| Version Tested | [Fill in version]        |
-| Testing Period | [Fill in testing period] |
-
-> [Add a brief description of No Sun To Worship here.]
 
 ---
 
@@ -106,7 +92,6 @@ This portfolio documents my learning journey and practical experience in Game QA
 | Session                                                                                        | Game              | Status         |
 | ---------------------------------------------------------------------------------------------- | ----------------- | -------------- |
 | [Session 001 — Aquatic Zone & Phase 3](exploratory-sessions/metal-garden/session-001.md)      | Metal Garden      | Completed      |
-| [Session 001 — Template](exploratory-sessions/no-sun-to-worship/session-001.md)               | No Sun To Worship | In Preparation |
 
 ---
 
@@ -115,7 +100,6 @@ This portfolio documents my learning journey and practical experience in Game QA
 | Project                                                                                         | Game              | Status         |
 | ----------------------------------------------------------------------------------------------- | ----------------- | -------------- |
 | [Metal Garden — Full Test Plan](test-plans/metal-garden/test-plan-metal-garden.md)             | Metal Garden      | Completed      |
-| [No Sun To Worship — Test Plan](test-plans/no-sun-to-worship/test-plan-no-sun-to-worship.md)   | No Sun To Worship | In Preparation |
 
 ---
 
@@ -124,7 +108,6 @@ This portfolio documents my learning journey and practical experience in Game QA
 | Document                                                                                          | Game              | Cases | Status       |
 | ------------------------------------------------------------------------------------------------- | ----------------- | ----- | ------------ |
 | [Combat and Collision](test-cases/metal-garden/combat-and-collision-test-cases.md)               | Metal Garden      | 15    | Completed    |
-| [Gameplay and Systems](test-cases/no-sun-to-worship/gameplay-and-systems-test-cases.md)          | No Sun To Worship | 15    | Not Executed |
 
 ---
 
@@ -133,10 +116,9 @@ This portfolio documents my learning journey and practical experience in Game QA
 | Metric              | Value |
 | ------------------- | ----- |
 | Games Tested        | 1     |
-| Games In Progress   | 1     |
 | Bug Reports Created | 4     |
-| Test Plans Created  | 2     |
-| Test Cases Designed | 30    |
+| Test Plans Created  | 1     |
+| Test Cases Designed | 15    |
 
 *Statistics will be updated as new projects are completed.*
 
@@ -147,26 +129,17 @@ This portfolio documents my learning journey and practical experience in Game QA
 ```text
 game-qa-portfolio
 ├── bug-reports
-│   ├── metal-garden
-│   └── no-sun-to-worship
+│   └── metal-garden
 ├── test-plans
-│   ├── metal-garden
-│   └── no-sun-to-worship
+│   └── metal-garden
 ├── test-cases
-│   ├── metal-garden
-│   └── no-sun-to-worship
+│   └── metal-garden
 ├── exploratory-sessions
-│   ├── metal-garden
-│   └── no-sun-to-worship
+│   └── metal-garden
 ├── observations
-│   ├── metal-garden
-│   └── no-sun-to-worship
+│   └── metal-garden
 ├── assets
-│   ├── metal-garden
-│   │   ├── screenshots
-│   │   ├── gifs
-│   │   └── videos
-│   └── no-sun-to-worship
+│   └── metal-garden
 │       ├── screenshots
 │       ├── gifs
 │       └── videos
