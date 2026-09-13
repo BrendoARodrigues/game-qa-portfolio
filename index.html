@@ -16,6 +16,7 @@
     --sans: 'Inter', -apple-system, sans-serif;
     --pass: #5fd9a4;
     --warn: #f5b942;
+    --serious: #ff9d5c;
     --crit: #ff6b6b;
     --link: #8ab4ff;
   }
@@ -217,6 +218,20 @@
   .badge-low{color:var(--pass); border-color:var(--pass); background:rgba(95,217,164,0.08);}
   .badge-high{color:var(--crit); border-color:var(--crit); background:rgba(255,107,107,0.08);}
 
+  .badge-critica{color:var(--crit); border-color:var(--crit); background:rgba(255,107,107,0.08);}
+  .badge-seria{color:var(--serious); border-color:var(--serious); background:rgba(255,157,92,0.08);}
+  .badge-media{color:var(--warn); border-color:var(--warn); background:rgba(245,185,66,0.08);}
+  .badge-baixa{color:var(--text-dim); border-color:var(--line); background:rgba(154,163,178,0.08);}
+  .badge-positiva{color:var(--pass); border-color:var(--pass); background:rgba(95,217,164,0.08);}
+
+  .academic-tag{
+    display:inline-flex; align-items:center; gap:8px;
+    font-family:var(--mono); font-size:11.5px; color:var(--text-dim);
+    border:1px solid var(--line); border-radius:6px;
+    padding:5px 10px; margin:0 0 20px;
+  }
+  .academic-tag::before{content:"🎓";}
+
   .status-dot{display:inline-flex; align-items:center; gap:7px; font-size:13px; color:var(--text-dim);}
   .status-dot::before{content:""; width:7px; height:7px; border-radius:50%; background:var(--text-dim); flex-shrink:0;}
   .status-confirmed::before{background:var(--pass);}
@@ -274,6 +289,7 @@
       <li><a href="#skills">Skills</a></li>
       <li><a href="#games">Jogos testados</a></li>
       <li><a href="#projects">Projetos</a></li>
+      <li><a href="#playtest">Playtest UX</a></li>
     </ul>
     <a class="nav-cta" href="https://github.com/BrendoARodrigues/game-qa-portfolio" target="_blank" rel="noopener">Ver no GitHub</a>
   </div>
@@ -298,6 +314,7 @@
         <div class="stat-line"><span class="k">bug_reports</span><span class="v">4</span></div>
         <div class="stat-line"><span class="k">test_plans</span><span class="v">1</span></div>
         <div class="stat-line"><span class="k">test_cases</span><span class="v">15</span></div>
+        <div class="stat-line"><span class="k">playtest_reports</span><span class="v">1</span></div>
       </div>
     </div>
   </div>
@@ -449,6 +466,78 @@
       <a class="link-card" href="https://github.com/BrendoARodrigues/game-qa-portfolio/blob/main/test-cases/metal-garden/combat-and-collision-test-cases.md" target="_blank" rel="noopener">
         <span class="lt">Combat and Collision</span>
         <span class="lm">Metal Garden · 15 cases · Completed</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="playtest">
+  <div class="wrap">
+    <h2 class="section-title">Playtest &amp; UX Research</h2>
+    <p class="section-sub">Relatórios de pesquisa de UX conduzidos em grupo, com síntese de múltiplos participantes e achados classificados por severidade.</p>
+    <div class="academic-tag">Atividade acadêmica (CultSP Pro) — não é teste profissional/comercial contratado</div>
+    <table class="tracker">
+      <thead>
+        <tr><th>ID</th><th>Achado</th><th>Jogo</th><th>Severidade</th><th>Status</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="id-cell">PT-001</td>
+          <td><a href="https://github.com/BrendoARodrigues/game-qa-portfolio/blob/main/playtest-reports/brasas/report.md" target="_blank" rel="noopener">Performance e tempo de carregamento</a></td>
+          <td class="game-cell">Brasas</td>
+          <td><span class="badge badge-critica">Crítica</span></td>
+          <td><span class="status-dot status-confirmed">Reportado</span></td>
+        </tr>
+        <tr>
+          <td class="id-cell">PT-002</td>
+          <td><a href="https://github.com/BrendoARodrigues/game-qa-portfolio/blob/main/playtest-reports/brasas/report.md" target="_blank" rel="noopener">Caminho travado na locomoção</a></td>
+          <td class="game-cell">Brasas</td>
+          <td><span class="badge badge-critica">Crítica</span></td>
+          <td><span class="status-dot status-confirmed">Reportado</span></td>
+        </tr>
+        <tr>
+          <td class="id-cell">PT-003</td>
+          <td><a href="https://github.com/BrendoARodrigues/game-qa-portfolio/blob/main/playtest-reports/brasas/report.md" target="_blank" rel="noopener">Legibilidade e ritmo dos textos (FTUE)</a></td>
+          <td class="game-cell">Brasas</td>
+          <td><span class="badge badge-seria">Séria</span></td>
+          <td><span class="status-dot status-confirmed">Reportado</span></td>
+        </tr>
+        <tr>
+          <td class="id-cell">PT-004</td>
+          <td><a href="https://github.com/BrendoARodrigues/game-qa-portfolio/blob/main/playtest-reports/brasas/report.md" target="_blank" rel="noopener">Encerramento de turno não é intuitivo</a></td>
+          <td class="game-cell">Brasas</td>
+          <td><span class="badge badge-seria">Séria</span></td>
+          <td><span class="status-dot status-confirmed">Reportado</span></td>
+        </tr>
+        <tr>
+          <td class="id-cell">PT-005</td>
+          <td><a href="https://github.com/BrendoARodrigues/game-qa-portfolio/blob/main/playtest-reports/brasas/report.md" target="_blank" rel="noopener">Classe Arqueiro: expectativa visual x mecânica real</a></td>
+          <td class="game-cell">Brasas</td>
+          <td><span class="badge badge-seria">Séria</span></td>
+          <td><span class="status-dot status-confirmed">Reportado</span></td>
+        </tr>
+        <tr>
+          <td class="id-cell">PT-006</td>
+          <td><a href="https://github.com/BrendoARodrigues/game-qa-portfolio/blob/main/playtest-reports/brasas/report.md" target="_blank" rel="noopener">Sistema de pontos de movimento sem indicador visível</a></td>
+          <td class="game-cell">Brasas</td>
+          <td><span class="badge badge-seria">Séria</span></td>
+          <td><span class="status-dot status-confirmed">Reportado</span></td>
+        </tr>
+        <tr>
+          <td class="id-cell">PT-007</td>
+          <td><a href="https://github.com/BrendoARodrigues/game-qa-portfolio/blob/main/playtest-reports/brasas/report.md" target="_blank" rel="noopener">Direção de arte, personagens e ambientação</a></td>
+          <td class="game-cell">Brasas</td>
+          <td><span class="badge badge-positiva">Positiva</span></td>
+          <td><span class="status-dot status-confirmed">Confirmado</span></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="group-title">Relatório completo</div>
+    <div class="link-grid" style="grid-template-columns:minmax(0,1fr);">
+      <a class="link-card" href="https://github.com/BrendoARodrigues/game-qa-portfolio/blob/main/playtest-reports/brasas/report.md" target="_blank" rel="noopener">
+        <span class="lt">Brasas — Playtest UX Report</span>
+        <span class="lm">Pesquisa e Análise · 4 participantes · Concluído</span>
       </a>
     </div>
   </div>
